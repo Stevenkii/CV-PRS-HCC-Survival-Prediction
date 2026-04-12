@@ -1,0 +1,670 @@
+Executing com.antigenomics.vdjtools.diversity.CalcDiversityStats -x 10000000 -m /public/home/lifex/xiax/HCC_TCGA_data/TCR/3people/LungTCR/extdata/metadata.tsv .
+[Thu Jan 22 16:33:47 GMT+08:00 2026 CalcDiversityStats] Reading samples
+[Thu Jan 22 16:33:47 GMT+08:00 2026 CalcDiversityStats] 133 samples to analyze
+[Thu Jan 22 16:33:47 GMT+08:00 2026 SampleCollection] Collecting sample statistics
+[Thu Jan 22 16:33:48 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11065 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:48 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9597 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7662 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5193 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11763 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5600 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5676 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6612 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5297 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7323 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10082 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5681 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5293 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:50 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5942 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:51 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7603 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:51 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3724 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:51 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10643 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:51 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5018 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:51 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8276 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8245 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5960 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7542 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10728 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 2686 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3913 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8715 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7449 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7630 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4827 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5863 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5742 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4133 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7992 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9663 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4726 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4677 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4872 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5703 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5323 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8766 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5134 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5065 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3865 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8488 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5808 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6875 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6084 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3215 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5726 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5780 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6844 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7143 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 14353 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3899 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9258 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5363 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4118 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9661 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5434 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7501 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5455 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9962 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11995 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3189 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6260 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5365 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6479 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 12555 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4902 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3053 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9593 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6773 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8581 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4375 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:33:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8671 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8608 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7805 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3190 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7205 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5262 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5134 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:01 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13736 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:01 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5550 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:01 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11043 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:01 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4165 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7062 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10316 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13624 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6594 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5937 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4091 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5901 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9521 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4164 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6070 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8264 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3635 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4723 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8995 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3405 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6824 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10214 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5950 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:04 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7077 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4295 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7712 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8343 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4343 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4214 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3619 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4759 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5015 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13928 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8729 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6549 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10716 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3369 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6298 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6386 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5910 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5216 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9251 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3639 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7390 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8843 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11043 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9705 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4305 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 20964 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8366 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5872 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 14139 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8946 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 SampleStreamConnection] Loading sample chengshuicai
+[Thu Jan 22 16:34:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5681 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample chengshuicai with 5681 clonotypes and 15446202 cells. Memory usage: 2 of 28 GB
+[Thu Jan 22 16:34:09 GMT+08:00 2026 CalcDiversityStats] Analyzing chengshuicai
+[Thu Jan 22 16:34:21 GMT+08:00 2026 SampleStreamConnection] Loading sample chenguozhong
+[Thu Jan 22 16:34:22 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9593 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:22 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenguozhong with 9593 clonotypes and 21884848 cells. Memory usage: 2 of 27 GB
+[Thu Jan 22 16:34:22 GMT+08:00 2026 CalcDiversityStats] Analyzing chenguozhong
+[Thu Jan 22 16:34:34 GMT+08:00 2026 SampleStreamConnection] Loading sample chenpingyi
+[Thu Jan 22 16:34:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5703 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenpingyi with 5703 clonotypes and 17473065 cells. Memory usage: 3 of 27 GB
+[Thu Jan 22 16:34:34 GMT+08:00 2026 CalcDiversityStats] Analyzing chenpingyi
+[Thu Jan 22 16:34:45 GMT+08:00 2026 SampleStreamConnection] Loading sample chenwuxuan
+[Thu Jan 22 16:34:45 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4091 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:45 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenwuxuan with 4091 clonotypes and 16277955 cells. Memory usage: 4 of 29 GB
+[Thu Jan 22 16:34:45 GMT+08:00 2026 CalcDiversityStats] Analyzing chenwuxuan
+[Thu Jan 22 16:34:56 GMT+08:00 2026 SampleStreamConnection] Loading sample chenxihua
+[Thu Jan 22 16:34:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10082 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:34:56 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenxihua with 10082 clonotypes and 18618222 cells. Memory usage: 4 of 29 GB
+[Thu Jan 22 16:34:56 GMT+08:00 2026 CalcDiversityStats] Analyzing chenxihua
+[Thu Jan 22 16:35:08 GMT+08:00 2026 SampleStreamConnection] Loading sample dengyang
+[Thu Jan 22 16:35:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8729 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:35:08 GMT+08:00 2026 SampleStreamConnection] Loaded sample dengyang with 8729 clonotypes and 20880050 cells. Memory usage: 5 of 30 GB
+[Thu Jan 22 16:35:08 GMT+08:00 2026 CalcDiversityStats] Analyzing dengyang
+[Thu Jan 22 16:35:22 GMT+08:00 2026 SampleStreamConnection] Loading sample dengyun
+[Thu Jan 22 16:35:22 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8245 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:35:22 GMT+08:00 2026 SampleStreamConnection] Loaded sample dengyun with 8245 clonotypes and 21781150 cells. Memory usage: 5 of 30 GB
+[Thu Jan 22 16:35:22 GMT+08:00 2026 CalcDiversityStats] Analyzing dengyun
+[Thu Jan 22 16:35:35 GMT+08:00 2026 SampleStreamConnection] Loading sample duanxiaofeng
+[Thu Jan 22 16:35:35 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4118 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:35:35 GMT+08:00 2026 SampleStreamConnection] Loaded sample duanxiaofeng with 4118 clonotypes and 15953575 cells. Memory usage: 5 of 27 GB
+[Thu Jan 22 16:35:35 GMT+08:00 2026 CalcDiversityStats] Analyzing duanxiaofeng
+[Thu Jan 22 16:35:45 GMT+08:00 2026 SampleStreamConnection] Loading sample duyanjun
+[Thu Jan 22 16:35:45 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8276 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:35:45 GMT+08:00 2026 SampleStreamConnection] Loaded sample duyanjun with 8276 clonotypes and 18263433 cells. Memory usage: 7 of 29 GB
+[Thu Jan 22 16:35:45 GMT+08:00 2026 CalcDiversityStats] Analyzing duyanjun
+[Thu Jan 22 16:35:57 GMT+08:00 2026 SampleStreamConnection] Loading sample fanzhigang
+[Thu Jan 22 16:35:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11065 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:35:57 GMT+08:00 2026 SampleStreamConnection] Loaded sample fanzhigang with 11065 clonotypes and 20541716 cells. Memory usage: 7 of 26 GB
+[Thu Jan 22 16:35:57 GMT+08:00 2026 CalcDiversityStats] Analyzing fanzhigang
+[Thu Jan 22 16:36:09 GMT+08:00 2026 SampleStreamConnection] Loading sample fengaibing
+[Thu Jan 22 16:36:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9597 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:36:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample fengaibing with 9597 clonotypes and 19105776 cells. Memory usage: 7 of 28 GB
+[Thu Jan 22 16:36:09 GMT+08:00 2026 CalcDiversityStats] Analyzing fengaibing
+[Thu Jan 22 16:36:22 GMT+08:00 2026 SampleStreamConnection] Loading sample gaoshidong
+[Thu Jan 22 16:36:22 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7992 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:36:22 GMT+08:00 2026 SampleStreamConnection] Loaded sample gaoshidong with 7992 clonotypes and 21419476 cells. Memory usage: 9 of 33 GB
+[Thu Jan 22 16:36:22 GMT+08:00 2026 CalcDiversityStats] Analyzing gaoshidong
+[Thu Jan 22 16:36:34 GMT+08:00 2026 SampleStreamConnection] Loading sample gongdaqing
+[Thu Jan 22 16:36:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3899 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:36:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample gongdaqing with 3899 clonotypes and 20723391 cells. Memory usage: 9 of 30 GB
+[Thu Jan 22 16:36:34 GMT+08:00 2026 CalcDiversityStats] Analyzing gongdaqing
+[Thu Jan 22 16:36:47 GMT+08:00 2026 SampleStreamConnection] Loading sample hanshancheng
+[Thu Jan 22 16:36:47 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3865 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:36:47 GMT+08:00 2026 SampleStreamConnection] Loaded sample hanshancheng with 3865 clonotypes and 23171616 cells. Memory usage: 9 of 26 GB
+[Thu Jan 22 16:36:47 GMT+08:00 2026 CalcDiversityStats] Analyzing hanshancheng
+[Thu Jan 22 16:36:59 GMT+08:00 2026 SampleStreamConnection] Loading sample heguohua
+[Thu Jan 22 16:36:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3639 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:36:59 GMT+08:00 2026 SampleStreamConnection] Loaded sample heguohua with 3639 clonotypes and 16262984 cells. Memory usage: 9 of 31 GB
+[Thu Jan 22 16:36:59 GMT+08:00 2026 CalcDiversityStats] Analyzing heguohua
+[Thu Jan 22 16:37:09 GMT+08:00 2026 SampleStreamConnection] Loading sample hetianhua
+[Thu Jan 22 16:37:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5942 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:37:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample hetianhua with 5942 clonotypes and 17710644 cells. Memory usage: 9 of 28 GB
+[Thu Jan 22 16:37:09 GMT+08:00 2026 CalcDiversityStats] Analyzing hetianhua
+[Thu Jan 22 16:37:21 GMT+08:00 2026 SampleStreamConnection] Loading sample huangjingdong
+[Thu Jan 22 16:37:21 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6612 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:37:21 GMT+08:00 2026 SampleStreamConnection] Loaded sample huangjingdong with 6612 clonotypes and 20323142 cells. Memory usage: 10 of 35 GB
+[Thu Jan 22 16:37:21 GMT+08:00 2026 CalcDiversityStats] Analyzing huangjingdong
+[Thu Jan 22 16:37:34 GMT+08:00 2026 SampleStreamConnection] Loading sample huanglinshan
+[Thu Jan 22 16:37:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7323 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:37:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample huanglinshan with 7323 clonotypes and 15462237 cells. Memory usage: 10 of 32 GB
+[Thu Jan 22 16:37:34 GMT+08:00 2026 CalcDiversityStats] Analyzing huanglinshan
+[Thu Jan 22 16:37:45 GMT+08:00 2026 SampleStreamConnection] Loading sample huangrenting
+[Thu Jan 22 16:37:45 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5293 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:37:45 GMT+08:00 2026 SampleStreamConnection] Loaded sample huangrenting with 5293 clonotypes and 16318307 cells. Memory usage: 10 of 29 GB
+[Thu Jan 22 16:37:45 GMT+08:00 2026 CalcDiversityStats] Analyzing huangrenting
+[Thu Jan 22 16:37:55 GMT+08:00 2026 SampleStreamConnection] Loading sample jiangwencai
+[Thu Jan 22 16:37:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8608 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:37:55 GMT+08:00 2026 SampleStreamConnection] Loaded sample jiangwencai with 8608 clonotypes and 20103792 cells. Memory usage: 10 of 36 GB
+[Thu Jan 22 16:37:55 GMT+08:00 2026 CalcDiversityStats] Analyzing jiangwencai
+[Thu Jan 22 16:38:07 GMT+08:00 2026 SampleStreamConnection] Loading sample laizhengping
+[Thu Jan 22 16:38:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11995 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:38:07 GMT+08:00 2026 SampleStreamConnection] Loaded sample laizhengping with 11995 clonotypes and 19588903 cells. Memory usage: 10 of 32 GB
+[Thu Jan 22 16:38:07 GMT+08:00 2026 CalcDiversityStats] Analyzing laizhengping
+[Thu Jan 22 16:38:20 GMT+08:00 2026 SampleStreamConnection] Loading sample liangxiaoguang
+[Thu Jan 22 16:38:20 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6479 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:38:20 GMT+08:00 2026 SampleStreamConnection] Loaded sample liangxiaoguang with 6479 clonotypes and 18725495 cells. Memory usage: 10 of 29 GB
+[Thu Jan 22 16:38:20 GMT+08:00 2026 CalcDiversityStats] Analyzing liangxiaoguang
+[Thu Jan 22 16:38:31 GMT+08:00 2026 SampleStreamConnection] Loading sample liaofeiling
+[Thu Jan 22 16:38:31 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8671 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:38:31 GMT+08:00 2026 SampleStreamConnection] Loaded sample liaofeiling with 8671 clonotypes and 21702714 cells. Memory usage: 10 of 35 GB
+[Thu Jan 22 16:38:31 GMT+08:00 2026 CalcDiversityStats] Analyzing liaofeiling
+[Thu Jan 22 16:38:44 GMT+08:00 2026 SampleStreamConnection] Loading sample liaoxiongfa
+[Thu Jan 22 16:38:44 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5550 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:38:44 GMT+08:00 2026 SampleStreamConnection] Loaded sample liaoxiongfa with 5550 clonotypes and 17792190 cells. Memory usage: 10 of 32 GB
+[Thu Jan 22 16:38:44 GMT+08:00 2026 CalcDiversityStats] Analyzing liaoxiongfa
+[Thu Jan 22 16:38:56 GMT+08:00 2026 SampleStreamConnection] Loading sample lichanglin
+[Thu Jan 22 16:38:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5872 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:38:56 GMT+08:00 2026 SampleStreamConnection] Loaded sample lichanglin with 5872 clonotypes and 15998097 cells. Memory usage: 10 of 29 GB
+[Thu Jan 22 16:38:56 GMT+08:00 2026 CalcDiversityStats] Analyzing lichanglin
+[Thu Jan 22 16:39:07 GMT+08:00 2026 SampleStreamConnection] Loading sample licheng
+[Thu Jan 22 16:39:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5297 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:39:07 GMT+08:00 2026 SampleStreamConnection] Loaded sample licheng with 5297 clonotypes and 21346118 cells. Memory usage: 10 of 36 GB
+[Thu Jan 22 16:39:07 GMT+08:00 2026 CalcDiversityStats] Analyzing licheng
+[Thu Jan 22 16:39:19 GMT+08:00 2026 SampleStreamConnection] Loading sample lidengyi
+[Thu Jan 22 16:39:19 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5134 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:39:19 GMT+08:00 2026 SampleStreamConnection] Loaded sample lidengyi with 5134 clonotypes and 16129513 cells. Memory usage: 10 of 32 GB
+[Thu Jan 22 16:39:19 GMT+08:00 2026 CalcDiversityStats] Analyzing lidengyi
+[Thu Jan 22 16:39:29 GMT+08:00 2026 SampleStreamConnection] Loading sample lidongquan
+[Thu Jan 22 16:39:29 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4872 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:39:29 GMT+08:00 2026 SampleStreamConnection] Loaded sample lidongquan with 4872 clonotypes and 14122319 cells. Memory usage: 10 of 29 GB
+[Thu Jan 22 16:39:29 GMT+08:00 2026 CalcDiversityStats] Analyzing lidongquan
+[Thu Jan 22 16:39:38 GMT+08:00 2026 SampleStreamConnection] Loading sample liguilian
+[Thu Jan 22 16:39:38 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3189 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:39:38 GMT+08:00 2026 SampleStreamConnection] Loaded sample liguilian with 3189 clonotypes and 19971457 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 16:39:38 GMT+08:00 2026 CalcDiversityStats] Analyzing liguilian
+[Thu Jan 22 16:39:49 GMT+08:00 2026 SampleStreamConnection] Loading sample liguoxue
+[Thu Jan 22 16:39:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4133 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:39:49 GMT+08:00 2026 SampleStreamConnection] Loaded sample liguoxue with 4133 clonotypes and 16634915 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:39:49 GMT+08:00 2026 CalcDiversityStats] Analyzing liguoxue
+[Thu Jan 22 16:40:00 GMT+08:00 2026 SampleStreamConnection] Loading sample lihongping
+[Thu Jan 22 16:40:00 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5960 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:00 GMT+08:00 2026 SampleStreamConnection] Loaded sample lihongping with 5960 clonotypes and 20331840 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:40:00 GMT+08:00 2026 CalcDiversityStats] Analyzing lihongping
+[Thu Jan 22 16:40:12 GMT+08:00 2026 SampleStreamConnection] Loading sample lindonghai
+[Thu Jan 22 16:40:13 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6824 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:13 GMT+08:00 2026 SampleStreamConnection] Loaded sample lindonghai with 6824 clonotypes and 20031961 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 16:40:13 GMT+08:00 2026 CalcDiversityStats] Analyzing lindonghai
+[Thu Jan 22 16:40:24 GMT+08:00 2026 SampleStreamConnection] Loading sample lingwenping
+[Thu Jan 22 16:40:24 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7542 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:24 GMT+08:00 2026 SampleStreamConnection] Loaded sample lingwenping with 7542 clonotypes and 21851350 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:40:24 GMT+08:00 2026 CalcDiversityStats] Analyzing lingwenping
+[Thu Jan 22 16:40:36 GMT+08:00 2026 SampleStreamConnection] Loading sample lingyongqing
+[Thu Jan 22 16:40:36 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9663 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:36 GMT+08:00 2026 SampleStreamConnection] Loaded sample lingyongqing with 9663 clonotypes and 19039690 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:40:36 GMT+08:00 2026 CalcDiversityStats] Analyzing lingyongqing
+[Thu Jan 22 16:40:48 GMT+08:00 2026 SampleStreamConnection] Loading sample linminghui
+[Thu Jan 22 16:40:48 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4165 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:48 GMT+08:00 2026 SampleStreamConnection] Loaded sample linminghui with 4165 clonotypes and 16141224 cells. Memory usage: 10 of 26 GB
+[Thu Jan 22 16:40:48 GMT+08:00 2026 CalcDiversityStats] Analyzing linminghui
+[Thu Jan 22 16:40:58 GMT+08:00 2026 SampleStreamConnection] Loading sample linteng
+[Thu Jan 22 16:40:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9661 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:40:58 GMT+08:00 2026 SampleStreamConnection] Loaded sample linteng with 9661 clonotypes and 19644647 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:40:58 GMT+08:00 2026 CalcDiversityStats] Analyzing linteng
+[Thu Jan 22 16:41:10 GMT+08:00 2026 SampleStreamConnection] Loading sample linyanjun
+[Thu Jan 22 16:41:10 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7662 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:41:10 GMT+08:00 2026 SampleStreamConnection] Loaded sample linyanjun with 7662 clonotypes and 17156132 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:41:10 GMT+08:00 2026 CalcDiversityStats] Analyzing linyanjun
+[Thu Jan 22 16:41:21 GMT+08:00 2026 SampleStreamConnection] Loading sample lishuiwang
+[Thu Jan 22 16:41:21 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4295 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:41:21 GMT+08:00 2026 SampleStreamConnection] Loaded sample lishuiwang with 4295 clonotypes and 18106086 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 16:41:21 GMT+08:00 2026 CalcDiversityStats] Analyzing lishuiwang
+[Thu Jan 22 16:41:33 GMT+08:00 2026 SampleStreamConnection] Loading sample liucuirong
+[Thu Jan 22 16:41:33 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5365 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:41:33 GMT+08:00 2026 SampleStreamConnection] Loaded sample liucuirong with 5365 clonotypes and 18056387 cells. Memory usage: 10 of 34 GB
+[Thu Jan 22 16:41:33 GMT+08:00 2026 CalcDiversityStats] Analyzing liucuirong
+[Thu Jan 22 16:41:44 GMT+08:00 2026 SampleStreamConnection] Loading sample liufanfan
+[Thu Jan 22 16:41:44 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4723 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:41:44 GMT+08:00 2026 SampleStreamConnection] Loaded sample liufanfan with 4723 clonotypes and 19247774 cells. Memory usage: 10 of 31 GB
+[Thu Jan 22 16:41:44 GMT+08:00 2026 CalcDiversityStats] Analyzing liufanfan
+[Thu Jan 22 16:41:56 GMT+08:00 2026 SampleStreamConnection] Loading sample liuhaiyong
+[Thu Jan 22 16:41:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5323 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:41:56 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuhaiyong with 5323 clonotypes and 18305921 cells. Memory usage: 10 of 28 GB
+[Thu Jan 22 16:41:56 GMT+08:00 2026 CalcDiversityStats] Analyzing liuhaiyong
+[Thu Jan 22 16:42:06 GMT+08:00 2026 SampleStreamConnection] Loading sample liuhongyao
+[Thu Jan 22 16:42:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7390 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:42:06 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuhongyao with 7390 clonotypes and 18149461 cells. Memory usage: 10 of 34 GB
+[Thu Jan 22 16:42:06 GMT+08:00 2026 CalcDiversityStats] Analyzing liuhongyao
+[Thu Jan 22 16:42:17 GMT+08:00 2026 SampleStreamConnection] Loading sample liuqingshan
+[Thu Jan 22 16:42:17 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6844 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:42:17 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuqingshan with 6844 clonotypes and 22020963 cells. Memory usage: 10 of 31 GB
+[Thu Jan 22 16:42:17 GMT+08:00 2026 CalcDiversityStats] Analyzing liuqingshan
+[Thu Jan 22 16:42:30 GMT+08:00 2026 SampleStreamConnection] Loading sample liurunhua
+[Thu Jan 22 16:42:30 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 12555 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:42:30 GMT+08:00 2026 SampleStreamConnection] Loaded sample liurunhua with 12555 clonotypes and 18279310 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 16:42:30 GMT+08:00 2026 CalcDiversityStats] Analyzing liurunhua
+[Thu Jan 22 16:42:42 GMT+08:00 2026 SampleStreamConnection] Loading sample liuyugou
+[Thu Jan 22 16:42:42 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4164 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:42:42 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuyugou with 4164 clonotypes and 20838101 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:42:42 GMT+08:00 2026 CalcDiversityStats] Analyzing liuyugou
+[Thu Jan 22 16:42:54 GMT+08:00 2026 SampleStreamConnection] Loading sample liwanai
+[Thu Jan 22 16:42:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5901 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:42:54 GMT+08:00 2026 SampleStreamConnection] Loaded sample liwanai with 5901 clonotypes and 17932011 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:42:54 GMT+08:00 2026 CalcDiversityStats] Analyzing liwanai
+[Thu Jan 22 16:43:05 GMT+08:00 2026 SampleStreamConnection] Loading sample liyangxiang
+[Thu Jan 22 16:43:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6773 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:43:05 GMT+08:00 2026 SampleStreamConnection] Loaded sample liyangxiang with 6773 clonotypes and 19701291 cells. Memory usage: 10 of 26 GB
+[Thu Jan 22 16:43:05 GMT+08:00 2026 CalcDiversityStats] Analyzing liyangxiang
+[Thu Jan 22 16:43:16 GMT+08:00 2026 SampleStreamConnection] Loading sample longzaixin
+[Thu Jan 22 16:43:16 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6260 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:43:16 GMT+08:00 2026 SampleStreamConnection] Loaded sample longzaixin with 6260 clonotypes and 18139986 cells. Memory usage: 9 of 32 GB
+[Thu Jan 22 16:43:16 GMT+08:00 2026 CalcDiversityStats] Analyzing longzaixin
+[Thu Jan 22 16:43:27 GMT+08:00 2026 SampleStreamConnection] Loading sample luobeibei
+[Thu Jan 22 16:43:27 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5808 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:43:27 GMT+08:00 2026 SampleStreamConnection] Loaded sample luobeibei with 5808 clonotypes and 20123723 cells. Memory usage: 9 of 28 GB
+[Thu Jan 22 16:43:27 GMT+08:00 2026 CalcDiversityStats] Analyzing luobeibei
+[Thu Jan 22 16:43:39 GMT+08:00 2026 SampleStreamConnection] Loading sample luwangzhi
+[Thu Jan 22 16:43:39 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 14139 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:43:39 GMT+08:00 2026 SampleStreamConnection] Loaded sample luwangzhi with 14139 clonotypes and 21432521 cells. Memory usage: 9 of 33 GB
+[Thu Jan 22 16:43:39 GMT+08:00 2026 CalcDiversityStats] Analyzing luwangzhi
+[Thu Jan 22 16:43:53 GMT+08:00 2026 SampleStreamConnection] Loading sample maxiaoping
+[Thu Jan 22 16:43:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7143 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:43:53 GMT+08:00 2026 SampleStreamConnection] Loaded sample maxiaoping with 7143 clonotypes and 17958991 cells. Memory usage: 9 of 30 GB
+[Thu Jan 22 16:43:53 GMT+08:00 2026 CalcDiversityStats] Analyzing maxiaoping
+[Thu Jan 22 16:44:04 GMT+08:00 2026 SampleStreamConnection] Loading sample mazushan
+[Thu Jan 22 16:44:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9258 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:44:05 GMT+08:00 2026 SampleStreamConnection] Loaded sample mazushan with 9258 clonotypes and 22471551 cells. Memory usage: 9 of 26 GB
+[Thu Jan 22 16:44:05 GMT+08:00 2026 CalcDiversityStats] Analyzing mazushan
+[Thu Jan 22 16:44:17 GMT+08:00 2026 SampleStreamConnection] Loading sample meihefang
+[Thu Jan 22 16:44:17 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6386 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:44:17 GMT+08:00 2026 SampleStreamConnection] Loaded sample meihefang with 6386 clonotypes and 18312370 cells. Memory usage: 8 of 31 GB
+[Thu Jan 22 16:44:17 GMT+08:00 2026 CalcDiversityStats] Analyzing meihefang
+[Thu Jan 22 16:44:28 GMT+08:00 2026 SampleStreamConnection] Loading sample pancuiming
+[Thu Jan 22 16:44:28 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8995 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:44:28 GMT+08:00 2026 SampleStreamConnection] Loaded sample pancuiming with 8995 clonotypes and 18697839 cells. Memory usage: 8 of 28 GB
+[Thu Jan 22 16:44:28 GMT+08:00 2026 CalcDiversityStats] Analyzing pancuiming
+[Thu Jan 22 16:44:40 GMT+08:00 2026 SampleStreamConnection] Loading sample qiuhonggen
+[Thu Jan 22 16:44:40 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7077 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:44:40 GMT+08:00 2026 SampleStreamConnection] Loaded sample qiuhonggen with 7077 clonotypes and 17226459 cells. Memory usage: 8 of 32 GB
+[Thu Jan 22 16:44:40 GMT+08:00 2026 CalcDiversityStats] Analyzing qiuhonggen
+[Thu Jan 22 16:44:52 GMT+08:00 2026 SampleStreamConnection] Loading sample qiurongliang
+[Thu Jan 22 16:44:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4677 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:44:52 GMT+08:00 2026 SampleStreamConnection] Loaded sample qiurongliang with 4677 clonotypes and 14771581 cells. Memory usage: 8 of 29 GB
+[Thu Jan 22 16:44:52 GMT+08:00 2026 CalcDiversityStats] Analyzing qiurongliang
+[Thu Jan 22 16:45:02 GMT+08:00 2026 SampleStreamConnection] Loading sample shenweigui
+[Thu Jan 22 16:45:02 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5780 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:45:02 GMT+08:00 2026 SampleStreamConnection] Loaded sample shenweigui with 5780 clonotypes and 22443060 cells. Memory usage: 8 of 26 GB
+[Thu Jan 22 16:45:02 GMT+08:00 2026 CalcDiversityStats] Analyzing shenweigui
+[Thu Jan 22 16:45:17 GMT+08:00 2026 SampleStreamConnection] Loading sample suxinhou
+[Thu Jan 22 16:45:17 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6084 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:45:17 GMT+08:00 2026 SampleStreamConnection] Loaded sample suxinhou with 6084 clonotypes and 17408275 cells. Memory usage: 8 of 30 GB
+[Thu Jan 22 16:45:17 GMT+08:00 2026 CalcDiversityStats] Analyzing suxinhou
+[Thu Jan 22 16:45:31 GMT+08:00 2026 SampleStreamConnection] Loading sample tanghuibiao
+[Thu Jan 22 16:45:31 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7805 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:45:31 GMT+08:00 2026 SampleStreamConnection] Loaded sample tanghuibiao with 7805 clonotypes and 19003901 cells. Memory usage: 8 of 27 GB
+[Thu Jan 22 16:45:31 GMT+08:00 2026 CalcDiversityStats] Analyzing tanghuibiao
+[Thu Jan 22 16:45:43 GMT+08:00 2026 SampleStreamConnection] Loading sample tangkehua
+[Thu Jan 22 16:45:43 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7630 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:45:43 GMT+08:00 2026 SampleStreamConnection] Loaded sample tangkehua with 7630 clonotypes and 26257577 cells. Memory usage: 7 of 30 GB
+[Thu Jan 22 16:45:43 GMT+08:00 2026 CalcDiversityStats] Analyzing tangkehua
+[Thu Jan 22 16:45:57 GMT+08:00 2026 SampleStreamConnection] Loading sample tangzhihua
+[Thu Jan 22 16:45:57 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7712 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:45:57 GMT+08:00 2026 SampleStreamConnection] Loaded sample tangzhihua with 7712 clonotypes and 18443744 cells. Memory usage: 7 of 26 GB
+[Thu Jan 22 16:45:57 GMT+08:00 2026 CalcDiversityStats] Analyzing tangzhihua
+[Thu Jan 22 16:46:08 GMT+08:00 2026 SampleStreamConnection] Loading sample wangchangqing
+[Thu Jan 22 16:46:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4214 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:46:08 GMT+08:00 2026 SampleStreamConnection] Loaded sample wangchangqing with 4214 clonotypes and 17481200 cells. Memory usage: 7 of 29 GB
+[Thu Jan 22 16:46:08 GMT+08:00 2026 CalcDiversityStats] Analyzing wangchangqing
+[Thu Jan 22 16:46:19 GMT+08:00 2026 SampleStreamConnection] Loading sample wangzhenfu
+[Thu Jan 22 16:46:19 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5937 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:46:19 GMT+08:00 2026 SampleStreamConnection] Loaded sample wangzhenfu with 5937 clonotypes and 23519505 cells. Memory usage: 7 of 26 GB
+[Thu Jan 22 16:46:19 GMT+08:00 2026 CalcDiversityStats] Analyzing wangzhenfu
+[Thu Jan 22 16:46:31 GMT+08:00 2026 SampleStreamConnection] Loading sample wenzhixiong
+[Thu Jan 22 16:46:31 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10316 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:46:31 GMT+08:00 2026 SampleStreamConnection] Loaded sample wenzhixiong with 10316 clonotypes and 18666472 cells. Memory usage: 7 of 28 GB
+[Thu Jan 22 16:46:31 GMT+08:00 2026 CalcDiversityStats] Analyzing wenzhixiong
+[Thu Jan 22 16:46:45 GMT+08:00 2026 SampleStreamConnection] Loading sample wuguoliang
+[Thu Jan 22 16:46:46 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8264 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:46:46 GMT+08:00 2026 SampleStreamConnection] Loaded sample wuguoliang with 8264 clonotypes and 22585762 cells. Memory usage: 7 of 32 GB
+[Thu Jan 22 16:46:46 GMT+08:00 2026 CalcDiversityStats] Analyzing wuguoliang
+[Thu Jan 22 16:46:59 GMT+08:00 2026 SampleStreamConnection] Loading sample wuxingchang
+[Thu Jan 22 16:46:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6070 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:46:59 GMT+08:00 2026 SampleStreamConnection] Loaded sample wuxingchang with 6070 clonotypes and 19476436 cells. Memory usage: 7 of 28 GB
+[Thu Jan 22 16:46:59 GMT+08:00 2026 CalcDiversityStats] Analyzing wuxingchang
+[Thu Jan 22 16:47:10 GMT+08:00 2026 SampleStreamConnection] Loading sample wuxuanwen
+[Thu Jan 22 16:47:10 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8488 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:47:10 GMT+08:00 2026 SampleStreamConnection] Loaded sample wuxuanwen with 8488 clonotypes and 16916693 cells. Memory usage: 7 of 31 GB
+[Thu Jan 22 16:47:10 GMT+08:00 2026 CalcDiversityStats] Analyzing wuxuanwen
+[Thu Jan 22 16:47:20 GMT+08:00 2026 SampleStreamConnection] Loading sample wuyufeng
+[Thu Jan 22 16:47:20 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8343 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:47:20 GMT+08:00 2026 SampleStreamConnection] Loaded sample wuyufeng with 8343 clonotypes and 20639633 cells. Memory usage: 7 of 28 GB
+[Thu Jan 22 16:47:20 GMT+08:00 2026 CalcDiversityStats] Analyzing wuyufeng
+[Thu Jan 22 16:47:32 GMT+08:00 2026 SampleStreamConnection] Loading sample xuhuilan
+[Thu Jan 22 16:47:32 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3405 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:47:32 GMT+08:00 2026 SampleStreamConnection] Loaded sample xuhuilan with 3405 clonotypes and 14987623 cells. Memory usage: 8 of 32 GB
+[Thu Jan 22 16:47:32 GMT+08:00 2026 CalcDiversityStats] Analyzing xuhuilan
+[Thu Jan 22 16:47:42 GMT+08:00 2026 SampleStreamConnection] Loading sample xukangke
+[Thu Jan 22 16:47:42 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4902 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:47:42 GMT+08:00 2026 SampleStreamConnection] Loaded sample xukangke with 4902 clonotypes and 19907964 cells. Memory usage: 8 of 29 GB
+[Thu Jan 22 16:47:42 GMT+08:00 2026 CalcDiversityStats] Analyzing xukangke
+[Thu Jan 22 16:47:54 GMT+08:00 2026 SampleStreamConnection] Loading sample xuli
+[Thu Jan 22 16:47:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5193 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:47:54 GMT+08:00 2026 SampleStreamConnection] Loaded sample xuli with 5193 clonotypes and 16921481 cells. Memory usage: 9 of 34 GB
+[Thu Jan 22 16:47:54 GMT+08:00 2026 CalcDiversityStats] Analyzing xuli
+[Thu Jan 22 16:48:05 GMT+08:00 2026 SampleStreamConnection] Loading sample yilecheng
+[Thu Jan 22 16:48:05 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6594 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:48:05 GMT+08:00 2026 SampleStreamConnection] Loaded sample yilecheng with 6594 clonotypes and 19042369 cells. Memory usage: 9 of 31 GB
+[Thu Jan 22 16:48:05 GMT+08:00 2026 CalcDiversityStats] Analyzing yilecheng
+[Thu Jan 22 16:48:16 GMT+08:00 2026 SampleStreamConnection] Loading sample yuanzhengbin
+[Thu Jan 22 16:48:17 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8766 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:48:17 GMT+08:00 2026 SampleStreamConnection] Loaded sample yuanzhengbin with 8766 clonotypes and 21961858 cells. Memory usage: 9 of 28 GB
+[Thu Jan 22 16:48:17 GMT+08:00 2026 CalcDiversityStats] Analyzing yuanzhengbin
+[Thu Jan 22 16:48:29 GMT+08:00 2026 SampleStreamConnection] Loading sample zenglingjie
+[Thu Jan 22 16:48:29 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5863 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:48:29 GMT+08:00 2026 SampleStreamConnection] Loaded sample zenglingjie with 5863 clonotypes and 17263338 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:48:29 GMT+08:00 2026 CalcDiversityStats] Analyzing zenglingjie
+[Thu Jan 22 16:48:41 GMT+08:00 2026 SampleStreamConnection] Loading sample zengmuyuan
+[Thu Jan 22 16:48:41 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7603 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:48:41 GMT+08:00 2026 SampleStreamConnection] Loaded sample zengmuyuan with 7603 clonotypes and 22772056 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:48:41 GMT+08:00 2026 CalcDiversityStats] Analyzing zengmuyuan
+[Thu Jan 22 16:48:54 GMT+08:00 2026 SampleStreamConnection] Loading sample zengqingwen
+[Thu Jan 22 16:48:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5134 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:48:54 GMT+08:00 2026 SampleStreamConnection] Loaded sample zengqingwen with 5134 clonotypes and 19324606 cells. Memory usage: 10 of 26 GB
+[Thu Jan 22 16:48:54 GMT+08:00 2026 CalcDiversityStats] Analyzing zengqingwen
+[Thu Jan 22 16:49:06 GMT+08:00 2026 SampleStreamConnection] Loading sample zengrongyuan
+[Thu Jan 22 16:49:06 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4375 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:49:06 GMT+08:00 2026 SampleStreamConnection] Loaded sample zengrongyuan with 4375 clonotypes and 15993302 cells. Memory usage: 11 of 33 GB
+[Thu Jan 22 16:49:06 GMT+08:00 2026 CalcDiversityStats] Analyzing zengrongyuan
+[Thu Jan 22 16:49:16 GMT+08:00 2026 SampleStreamConnection] Loading sample zhanghanting
+[Thu Jan 22 16:49:16 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5742 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:49:16 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhanghanting with 5742 clonotypes and 17007433 cells. Memory usage: 11 of 30 GB
+[Thu Jan 22 16:49:16 GMT+08:00 2026 CalcDiversityStats] Analyzing zhanghanting
+[Thu Jan 22 16:49:27 GMT+08:00 2026 SampleStreamConnection] Loading sample zhangmaodong
+[Thu Jan 22 16:49:27 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4343 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:49:27 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhangmaodong with 4343 clonotypes and 19597274 cells. Memory usage: 11 of 27 GB
+[Thu Jan 22 16:49:27 GMT+08:00 2026 CalcDiversityStats] Analyzing zhangmaodong
+[Thu Jan 22 16:49:38 GMT+08:00 2026 SampleStreamConnection] Loading sample zhangyiguo
+[Thu Jan 22 16:49:38 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5455 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:49:38 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhangyiguo with 5455 clonotypes and 16094026 cells. Memory usage: 11 of 34 GB
+[Thu Jan 22 16:49:38 GMT+08:00 2026 CalcDiversityStats] Analyzing zhangyiguo
+[Thu Jan 22 16:49:49 GMT+08:00 2026 SampleStreamConnection] Loading sample zhaoyong
+[Thu Jan 22 16:49:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7062 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:49:49 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhaoyong with 7062 clonotypes and 18418937 cells. Memory usage: 11 of 31 GB
+[Thu Jan 22 16:49:49 GMT+08:00 2026 CalcDiversityStats] Analyzing zhaoyong
+[Thu Jan 22 16:50:00 GMT+08:00 2026 SampleStreamConnection] Loading sample baichangbing
+[Thu Jan 22 16:50:01 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3619 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:01 GMT+08:00 2026 SampleStreamConnection] Loaded sample baichangbing with 3619 clonotypes and 11017054 cells. Memory usage: 11 of 28 GB
+[Thu Jan 22 16:50:01 GMT+08:00 2026 CalcDiversityStats] Analyzing baichangbing
+[Thu Jan 22 16:50:11 GMT+08:00 2026 SampleStreamConnection] Loading sample cengrongyuan
+[Thu Jan 22 16:50:11 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4827 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:11 GMT+08:00 2026 SampleStreamConnection] Loaded sample cengrongyuan with 4827 clonotypes and 15558309 cells. Memory usage: 11 of 36 GB
+[Thu Jan 22 16:50:11 GMT+08:00 2026 CalcDiversityStats] Analyzing cengrongyuan
+[Thu Jan 22 16:50:21 GMT+08:00 2026 SampleStreamConnection] Loading sample chenxiaobiao
+[Thu Jan 22 16:50:21 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7449 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:21 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenxiaobiao with 7449 clonotypes and 17516332 cells. Memory usage: 11 of 33 GB
+[Thu Jan 22 16:50:21 GMT+08:00 2026 CalcDiversityStats] Analyzing chenxiaobiao
+[Thu Jan 22 16:50:33 GMT+08:00 2026 SampleStreamConnection] Loading sample chenyouping
+[Thu Jan 22 16:50:33 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5434 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:33 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenyouping with 5434 clonotypes and 21043796 cells. Memory usage: 11 of 30 GB
+[Thu Jan 22 16:50:33 GMT+08:00 2026 CalcDiversityStats] Analyzing chenyouping
+[Thu Jan 22 16:50:45 GMT+08:00 2026 SampleStreamConnection] Loading sample chenyouqiang
+[Thu Jan 22 16:50:45 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13624 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:45 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenyouqiang with 13624 clonotypes and 27577847 cells. Memory usage: 10 of 36 GB
+[Thu Jan 22 16:50:45 GMT+08:00 2026 CalcDiversityStats] Analyzing chenyouqiang
+[Thu Jan 22 16:50:58 GMT+08:00 2026 SampleStreamConnection] Loading sample chenyuanxiong
+[Thu Jan 22 16:50:58 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10214 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:50:58 GMT+08:00 2026 SampleStreamConnection] Loaded sample chenyuanxiong with 10214 clonotypes and 21314890 cells. Memory usage: 10 of 32 GB
+[Thu Jan 22 16:50:58 GMT+08:00 2026 CalcDiversityStats] Analyzing chenyuanxiong
+[Thu Jan 22 16:51:11 GMT+08:00 2026 SampleStreamConnection] Loading sample daiwenzhong
+[Thu Jan 22 16:51:11 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8946 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:51:11 GMT+08:00 2026 SampleStreamConnection] Loaded sample daiwenzhong with 8946 clonotypes and 20558504 cells. Memory usage: 10 of 28 GB
+[Thu Jan 22 16:51:11 GMT+08:00 2026 CalcDiversityStats] Analyzing daiwenzhong
+[Thu Jan 22 16:51:24 GMT+08:00 2026 SampleStreamConnection] Loading sample denghanbiao
+[Thu Jan 22 16:51:24 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5600 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:51:24 GMT+08:00 2026 SampleStreamConnection] Loaded sample denghanbiao with 5600 clonotypes and 15527414 cells. Memory usage: 11 of 35 GB
+[Thu Jan 22 16:51:24 GMT+08:00 2026 CalcDiversityStats] Analyzing denghanbiao
+[Thu Jan 22 16:51:34 GMT+08:00 2026 SampleStreamConnection] Loading sample dingfenglan
+[Thu Jan 22 16:51:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11043 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:51:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample dingfenglan with 11043 clonotypes and 24849907 cells. Memory usage: 11 of 32 GB
+[Thu Jan 22 16:51:34 GMT+08:00 2026 CalcDiversityStats] Analyzing dingfenglan
+[Thu Jan 22 16:51:48 GMT+08:00 2026 SampleStreamConnection] Loading sample duwei
+[Thu Jan 22 16:51:48 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5262 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:51:48 GMT+08:00 2026 SampleStreamConnection] Loaded sample duwei with 5262 clonotypes and 19349622 cells. Memory usage: 11 of 28 GB
+[Thu Jan 22 16:51:48 GMT+08:00 2026 CalcDiversityStats] Analyzing duwei
+[Thu Jan 22 16:51:59 GMT+08:00 2026 SampleStreamConnection] Loading sample fanshengyao
+[Thu Jan 22 16:51:59 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4759 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:51:59 GMT+08:00 2026 SampleStreamConnection] Loaded sample fanshengyao with 4759 clonotypes and 17025061 cells. Memory usage: 11 of 35 GB
+[Thu Jan 22 16:51:59 GMT+08:00 2026 CalcDiversityStats] Analyzing fanshengyao
+[Thu Jan 22 16:52:09 GMT+08:00 2026 SampleStreamConnection] Loading sample huangjiqiang
+[Thu Jan 22 16:52:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9251 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:52:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample huangjiqiang with 9251 clonotypes and 25423562 cells. Memory usage: 11 of 32 GB
+[Thu Jan 22 16:52:09 GMT+08:00 2026 CalcDiversityStats] Analyzing huangjiqiang
+[Thu Jan 22 16:52:23 GMT+08:00 2026 SampleStreamConnection] Loading sample liangfengxian
+[Thu Jan 22 16:52:23 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3369 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:52:23 GMT+08:00 2026 SampleStreamConnection] Loaded sample liangfengxian with 3369 clonotypes and 18657019 cells. Memory usage: 11 of 28 GB
+[Thu Jan 22 16:52:23 GMT+08:00 2026 CalcDiversityStats] Analyzing liangfengxian
+[Thu Jan 22 16:52:34 GMT+08:00 2026 SampleStreamConnection] Loading sample lidazhang
+[Thu Jan 22 16:52:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5216 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:52:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample lidazhang with 5216 clonotypes and 20165488 cells. Memory usage: 11 of 34 GB
+[Thu Jan 22 16:52:34 GMT+08:00 2026 CalcDiversityStats] Analyzing lidazhang
+[Thu Jan 22 16:52:46 GMT+08:00 2026 SampleStreamConnection] Loading sample lijian
+[Thu Jan 22 16:52:46 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4305 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:52:46 GMT+08:00 2026 SampleStreamConnection] Loaded sample lijian with 4305 clonotypes and 11897960 cells. Memory usage: 11 of 31 GB
+[Thu Jan 22 16:52:46 GMT+08:00 2026 CalcDiversityStats] Analyzing lijian
+[Thu Jan 22 16:52:56 GMT+08:00 2026 SampleStreamConnection] Loading sample lilianbo
+[Thu Jan 22 16:52:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5726 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:52:56 GMT+08:00 2026 SampleStreamConnection] Loaded sample lilianbo with 5726 clonotypes and 21140674 cells. Memory usage: 11 of 28 GB
+[Thu Jan 22 16:52:56 GMT+08:00 2026 CalcDiversityStats] Analyzing lilianbo
+[Thu Jan 22 16:53:07 GMT+08:00 2026 SampleStreamConnection] Loading sample linguohui
+[Thu Jan 22 16:53:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5363 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:53:08 GMT+08:00 2026 SampleStreamConnection] Loaded sample linguohui with 5363 clonotypes and 20562693 cells. Memory usage: 11 of 35 GB
+[Thu Jan 22 16:53:08 GMT+08:00 2026 CalcDiversityStats] Analyzing linguohui
+[Thu Jan 22 16:53:19 GMT+08:00 2026 SampleStreamConnection] Loading sample linhuagen
+[Thu Jan 22 16:53:19 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13736 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:53:19 GMT+08:00 2026 SampleStreamConnection] Loaded sample linhuagen with 13736 clonotypes and 23184224 cells. Memory usage: 11 of 31 GB
+[Thu Jan 22 16:53:19 GMT+08:00 2026 CalcDiversityStats] Analyzing linhuagen
+[Thu Jan 22 16:53:32 GMT+08:00 2026 SampleStreamConnection] Loading sample linshaorong
+[Thu Jan 22 16:53:32 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3053 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:53:32 GMT+08:00 2026 SampleStreamConnection] Loaded sample linshaorong with 3053 clonotypes and 23127210 cells. Memory usage: 11 of 27 GB
+[Thu Jan 22 16:53:32 GMT+08:00 2026 CalcDiversityStats] Analyzing linshaorong
+[Thu Jan 22 16:53:45 GMT+08:00 2026 SampleStreamConnection] Loading sample litianyou
+[Thu Jan 22 16:53:45 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 2686 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:53:45 GMT+08:00 2026 SampleStreamConnection] Loaded sample litianyou with 2686 clonotypes and 14957128 cells. Memory usage: 11 of 33 GB
+[Thu Jan 22 16:53:45 GMT+08:00 2026 CalcDiversityStats] Analyzing litianyou
+[Thu Jan 22 16:53:55 GMT+08:00 2026 SampleStreamConnection] Loading sample liufuyeying
+[Thu Jan 22 16:53:55 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8843 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:53:55 GMT+08:00 2026 SampleStreamConnection] Loaded sample liufuyeying with 8843 clonotypes and 23575693 cells. Memory usage: 11 of 31 GB
+[Thu Jan 22 16:53:55 GMT+08:00 2026 CalcDiversityStats] Analyzing liufuyeying
+[Thu Jan 22 16:54:09 GMT+08:00 2026 SampleStreamConnection] Loading sample liujianzhong
+[Thu Jan 22 16:54:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7501 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:54:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample liujianzhong with 7501 clonotypes and 29186039 cells. Memory usage: 11 of 27 GB
+[Thu Jan 22 16:54:09 GMT+08:00 2026 CalcDiversityStats] Analyzing liujianzhong
+[Thu Jan 22 16:54:23 GMT+08:00 2026 SampleStreamConnection] Loading sample liumengzhong
+[Thu Jan 22 16:54:23 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5015 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:54:23 GMT+08:00 2026 SampleStreamConnection] Loaded sample liumengzhong with 5015 clonotypes and 15052547 cells. Memory usage: 11 of 32 GB
+[Thu Jan 22 16:54:23 GMT+08:00 2026 CalcDiversityStats] Analyzing liumengzhong
+[Thu Jan 22 16:54:33 GMT+08:00 2026 SampleStreamConnection] Loading sample liuweiping
+[Thu Jan 22 16:54:33 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5910 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:54:33 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuweiping with 5910 clonotypes and 17823908 cells. Memory usage: 11 of 29 GB
+[Thu Jan 22 16:54:33 GMT+08:00 2026 CalcDiversityStats] Analyzing liuweiping
+[Thu Jan 22 16:54:44 GMT+08:00 2026 SampleStreamConnection] Loading sample liuxiaoning
+[Thu Jan 22 16:54:44 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3724 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:54:44 GMT+08:00 2026 SampleStreamConnection] Loaded sample liuxiaoning with 3724 clonotypes and 21334441 cells. Memory usage: 11 of 26 GB
+[Thu Jan 22 16:54:44 GMT+08:00 2026 CalcDiversityStats] Analyzing liuxiaoning
+[Thu Jan 22 16:54:56 GMT+08:00 2026 SampleStreamConnection] Loading sample lixiaomei
+[Thu Jan 22 16:54:56 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9521 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:54:56 GMT+08:00 2026 SampleStreamConnection] Loaded sample lixiaomei with 9521 clonotypes and 19821474 cells. Memory usage: 11 of 34 GB
+[Thu Jan 22 16:54:56 GMT+08:00 2026 CalcDiversityStats] Analyzing lixiaomei
+[Thu Jan 22 16:55:08 GMT+08:00 2026 SampleStreamConnection] Loading sample liyuxing
+[Thu Jan 22 16:55:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 13928 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:55:08 GMT+08:00 2026 SampleStreamConnection] Loaded sample liyuxing with 13928 clonotypes and 20968690 cells. Memory usage: 11 of 30 GB
+[Thu Jan 22 16:55:08 GMT+08:00 2026 CalcDiversityStats] Analyzing liyuxing
+[Thu Jan 22 16:55:22 GMT+08:00 2026 SampleStreamConnection] Loading sample longwenping
+[Thu Jan 22 16:55:22 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10728 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:55:22 GMT+08:00 2026 SampleStreamConnection] Loaded sample longwenping with 10728 clonotypes and 20738695 cells. Memory usage: 10 of 36 GB
+[Thu Jan 22 16:55:22 GMT+08:00 2026 CalcDiversityStats] Analyzing longwenping
+[Thu Jan 22 16:55:33 GMT+08:00 2026 SampleStreamConnection] Loading sample luoxihu
+[Thu Jan 22 16:55:34 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6549 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:55:34 GMT+08:00 2026 SampleStreamConnection] Loaded sample luoxihu with 6549 clonotypes and 17660381 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:55:34 GMT+08:00 2026 CalcDiversityStats] Analyzing luoxihu
+[Thu Jan 22 16:55:44 GMT+08:00 2026 SampleStreamConnection] Loading sample maiyongzhong
+[Thu Jan 22 16:55:44 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3913 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:55:44 GMT+08:00 2026 SampleStreamConnection] Loaded sample maiyongzhong with 3913 clonotypes and 14820484 cells. Memory usage: 10 of 29 GB
+[Thu Jan 22 16:55:44 GMT+08:00 2026 CalcDiversityStats] Analyzing maiyongzhong
+[Thu Jan 22 16:55:54 GMT+08:00 2026 SampleStreamConnection] Loading sample shangkehua
+[Thu Jan 22 16:55:54 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8366 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:55:54 GMT+08:00 2026 SampleStreamConnection] Loaded sample shangkehua with 8366 clonotypes and 25159401 cells. Memory usage: 10 of 35 GB
+[Thu Jan 22 16:55:54 GMT+08:00 2026 CalcDiversityStats] Analyzing shangkehua
+[Thu Jan 22 16:56:07 GMT+08:00 2026 SampleStreamConnection] Loading sample shenwengang
+[Thu Jan 22 16:56:07 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11763 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:56:07 GMT+08:00 2026 SampleStreamConnection] Loaded sample shenwengang with 11763 clonotypes and 19248808 cells. Memory usage: 10 of 31 GB
+[Thu Jan 22 16:56:07 GMT+08:00 2026 CalcDiversityStats] Analyzing shenwengang
+[Thu Jan 22 16:56:19 GMT+08:00 2026 SampleStreamConnection] Loading sample shiyunfu
+[Thu Jan 22 16:56:20 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6875 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:56:20 GMT+08:00 2026 SampleStreamConnection] Loaded sample shiyunfu with 6875 clonotypes and 19462542 cells. Memory usage: 10 of 28 GB
+[Thu Jan 22 16:56:20 GMT+08:00 2026 CalcDiversityStats] Analyzing shiyunfu
+[Thu Jan 22 16:56:31 GMT+08:00 2026 SampleStreamConnection] Loading sample songzhonghua
+[Thu Jan 22 16:56:31 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5950 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:56:31 GMT+08:00 2026 SampleStreamConnection] Loaded sample songzhonghua with 5950 clonotypes and 14848582 cells. Memory usage: 10 of 33 GB
+[Thu Jan 22 16:56:31 GMT+08:00 2026 CalcDiversityStats] Analyzing songzhonghua
+[Thu Jan 22 16:56:42 GMT+08:00 2026 SampleStreamConnection] Loading sample tangguangxiang
+[Thu Jan 22 16:56:42 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5018 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:56:42 GMT+08:00 2026 SampleStreamConnection] Loaded sample tangguangxiang with 5018 clonotypes and 15787206 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 16:56:42 GMT+08:00 2026 CalcDiversityStats] Analyzing tangguangxiang
+[Thu Jan 22 16:56:52 GMT+08:00 2026 SampleStreamConnection] Loading sample tanjianzhi
+[Thu Jan 22 16:56:52 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5676 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:56:52 GMT+08:00 2026 SampleStreamConnection] Loaded sample tanjianzhi with 5676 clonotypes and 16925246 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 16:56:52 GMT+08:00 2026 CalcDiversityStats] Analyzing tanjianzhi
+[Thu Jan 22 16:57:08 GMT+08:00 2026 SampleStreamConnection] Loading sample wangcunao
+[Thu Jan 22 16:57:08 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 4726 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:57:08 GMT+08:00 2026 SampleStreamConnection] Loaded sample wangcunao with 4726 clonotypes and 22046299 cells. Memory usage: 9 of 32 GB
+[Thu Jan 22 16:57:08 GMT+08:00 2026 CalcDiversityStats] Analyzing wangcunao
+[Thu Jan 22 16:57:25 GMT+08:00 2026 SampleStreamConnection] Loading sample wangdonglin
+[Thu Jan 22 16:57:25 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3190 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:57:25 GMT+08:00 2026 SampleStreamConnection] Loaded sample wangdonglin with 3190 clonotypes and 15058055 cells. Memory usage: 9 of 29 GB
+[Thu Jan 22 16:57:25 GMT+08:00 2026 CalcDiversityStats] Analyzing wangdonglin
+[Thu Jan 22 16:57:36 GMT+08:00 2026 SampleStreamConnection] Loading sample wanghuabiao
+[Thu Jan 22 16:57:36 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 7205 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:57:36 GMT+08:00 2026 SampleStreamConnection] Loaded sample wanghuabiao with 7205 clonotypes and 19158170 cells. Memory usage: 9 of 34 GB
+[Thu Jan 22 16:57:36 GMT+08:00 2026 CalcDiversityStats] Analyzing wanghuabiao
+[Thu Jan 22 16:57:49 GMT+08:00 2026 SampleStreamConnection] Loading sample weiliqin
+[Thu Jan 22 16:57:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 20964 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:57:49 GMT+08:00 2026 SampleStreamConnection] Loaded sample weiliqin with 20964 clonotypes and 26813582 cells. Memory usage: 9 of 30 GB
+[Thu Jan 22 16:57:49 GMT+08:00 2026 CalcDiversityStats] Analyzing weiliqin
+[Thu Jan 22 16:58:10 GMT+08:00 2026 SampleStreamConnection] Loading sample wenkexiang
+[Thu Jan 22 16:58:10 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8581 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:58:10 GMT+08:00 2026 SampleStreamConnection] Loaded sample wenkexiang with 8581 clonotypes and 22029861 cells. Memory usage: 8 of 34 GB
+[Thu Jan 22 16:58:10 GMT+08:00 2026 CalcDiversityStats] Analyzing wenkexiang
+[Thu Jan 22 16:58:28 GMT+08:00 2026 SampleStreamConnection] Loading sample yangjingxuan
+[Thu Jan 22 16:58:29 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10643 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:58:29 GMT+08:00 2026 SampleStreamConnection] Loaded sample yangjingxuan with 10643 clonotypes and 23907806 cells. Memory usage: 8 of 30 GB
+[Thu Jan 22 16:58:29 GMT+08:00 2026 CalcDiversityStats] Analyzing yangjingxuan
+[Thu Jan 22 16:58:43 GMT+08:00 2026 SampleStreamConnection] Loading sample yuanxinping
+[Thu Jan 22 16:58:43 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 11043 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:58:43 GMT+08:00 2026 SampleStreamConnection] Loaded sample yuanxinping with 11043 clonotypes and 24697503 cells. Memory usage: 8 of 33 GB
+[Thu Jan 22 16:58:43 GMT+08:00 2026 CalcDiversityStats] Analyzing yuanxinping
+[Thu Jan 22 16:59:03 GMT+08:00 2026 SampleStreamConnection] Loading sample yujianping
+[Thu Jan 22 16:59:03 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 5065 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:59:03 GMT+08:00 2026 SampleStreamConnection] Loaded sample yujianping with 5065 clonotypes and 17041223 cells. Memory usage: 8 of 30 GB
+[Thu Jan 22 16:59:03 GMT+08:00 2026 CalcDiversityStats] Analyzing yujianping
+[Thu Jan 22 16:59:18 GMT+08:00 2026 SampleStreamConnection] Loading sample zhangweiyi
+[Thu Jan 22 16:59:18 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3635 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:59:18 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhangweiyi with 3635 clonotypes and 12863135 cells. Memory usage: 8 of 27 GB
+[Thu Jan 22 16:59:18 GMT+08:00 2026 CalcDiversityStats] Analyzing zhangweiyi
+[Thu Jan 22 16:59:29 GMT+08:00 2026 SampleStreamConnection] Loading sample zhangxiaohong
+[Thu Jan 22 16:59:29 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 14353 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:59:29 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhangxiaohong with 14353 clonotypes and 21463720 cells. Memory usage: 9 of 32 GB
+[Thu Jan 22 16:59:29 GMT+08:00 2026 CalcDiversityStats] Analyzing zhangxiaohong
+[Thu Jan 22 16:59:43 GMT+08:00 2026 SampleStreamConnection] Loading sample zhangxiaojie
+[Thu Jan 22 16:59:43 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 3215 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:59:43 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhangxiaojie with 3215 clonotypes and 13508185 cells. Memory usage: 9 of 28 GB
+[Thu Jan 22 16:59:43 GMT+08:00 2026 CalcDiversityStats] Analyzing zhangxiaojie
+[Thu Jan 22 16:59:53 GMT+08:00 2026 SampleStreamConnection] Loading sample zhaoyimin
+[Thu Jan 22 16:59:53 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9962 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 16:59:53 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhaoyimin with 9962 clonotypes and 30898113 cells. Memory usage: 10 of 34 GB
+[Thu Jan 22 16:59:53 GMT+08:00 2026 CalcDiversityStats] Analyzing zhaoyimin
+[Thu Jan 22 17:00:09 GMT+08:00 2026 SampleStreamConnection] Loading sample zhongrihai
+[Thu Jan 22 17:00:09 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 8715 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 17:00:09 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhongrihai with 8715 clonotypes and 20400811 cells. Memory usage: 10 of 30 GB
+[Thu Jan 22 17:00:09 GMT+08:00 2026 CalcDiversityStats] Analyzing zhongrihai
+[Thu Jan 22 17:00:22 GMT+08:00 2026 SampleStreamConnection] Loading sample zhoujianzhong
+[Thu Jan 22 17:00:22 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 6298 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 17:00:22 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhoujianzhong with 6298 clonotypes and 21496169 cells. Memory usage: 10 of 27 GB
+[Thu Jan 22 17:00:22 GMT+08:00 2026 CalcDiversityStats] Analyzing zhoujianzhong
+[Thu Jan 22 17:00:35 GMT+08:00 2026 SampleStreamConnection] Loading sample zhouqinlian
+[Thu Jan 22 17:00:35 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 10716 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 17:00:35 GMT+08:00 2026 SampleStreamConnection] Loaded sample zhouqinlian with 10716 clonotypes and 25196411 cells. Memory usage: 11 of 32 GB
+[Thu Jan 22 17:00:35 GMT+08:00 2026 CalcDiversityStats] Analyzing zhouqinlian
+[Thu Jan 22 17:00:49 GMT+08:00 2026 SampleStreamConnection] Loading sample zoupeiyan
+[Thu Jan 22 17:00:49 GMT+08:00 2026 ClonotypeStreamParser] Finished parsing 9705 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Thu Jan 22 17:00:49 GMT+08:00 2026 SampleStreamConnection] Loaded sample zoupeiyan with 9705 clonotypes and 26099778 cells. Memory usage: 11 of 29 GB
+[Thu Jan 22 17:00:49 GMT+08:00 2026 CalcDiversityStats] Analyzing zoupeiyan
+[Thu Jan 22 17:01:04 GMT+08:00 2026 CalcDiversityStats] Finished

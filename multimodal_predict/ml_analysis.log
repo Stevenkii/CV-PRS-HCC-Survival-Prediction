@@ -1,0 +1,45 @@
+
+[Step 1] 正在建立文件索引...
+✅ 索引建立完成，共索引 335 个唯一样本。
+
+正在处理: ready_to_train_train.csv ...
+  ⚠️  已丢弃 1 个样本 (原因: 缺少对应的图像特征文件)
+  -> 有效样本数: 195
+正在处理: ready_to_train_val.csv ...
+  -> 有效样本数: 65
+正在处理: ready_to_train_test.csv ...
+  -> 有效样本数: 66
+
+特征总维度: 801 (其中768维是图像特征)
+
+==================================================
+模型 A: Random Survival Forest (RSF) - 参数搜索
+==================================================
+尝试参数: {'n_estimators': 500, 'min_samples_leaf': 10} ...
+  -> 验证集 C-Index: 0.7106
+尝试参数: {'n_estimators': 1000, 'min_samples_leaf': 10} ...
+  -> 验证集 C-Index: 0.7241
+尝试参数: {'n_estimators': 500, 'min_samples_leaf': 20} ...
+  -> 验证集 C-Index: 0.7118
+尝试参数: {'n_estimators': 1000, 'min_samples_leaf': 20} ...
+  -> 验证集 C-Index: 0.7192
+
+🏆 RSF 最佳参数: {'n_estimators': 1000, 'min_samples_leaf': 10}
+🏆 RSF 验证集最佳得分: 0.7241
+🚀 RSF 测试集最终 C-Index: 0.7382
+
+==================================================
+模型 B: XGBoost Survival (Cox) - 参数搜索
+==================================================
+尝试参数: {'eta': 0.01, 'max_depth': 2, 'subsample': 0.7} ...
+  -> 验证集 C-Index: 0.7094
+尝试参数: {'eta': 0.01, 'max_depth': 3, 'subsample': 0.7} ...
+  -> 验证集 C-Index: 0.7216
+尝试参数: {'eta': 0.05, 'max_depth': 3, 'subsample': 0.8} ...
+  -> 验证集 C-Index: 0.6642
+尝试参数: {'eta': 0.05, 'max_depth': 4, 'subsample': 0.8} ...
+  -> 验证集 C-Index: 0.7289
+
+🏆 XGB 最佳参数: {'eta': 0.05, 'max_depth': 4, 'subsample': 0.8}
+🏆 XGB 验证集最佳得分: 0.7289
+🚀 XGB 测试集最终 C-Index: 0.6789
