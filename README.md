@@ -10,7 +10,7 @@ Official implementation of the manuscript: **"Vascular Architecture Principles i
 We provide an interpretable computational pathology framework linking vascular organization, immunity, and therapy benefit in Hepatocellular Carcinoma (HCC). 
 - **Upstream:** PaSegNet (Tissue Seg) -> Omni-Seg (Vessel) -> CellViT++ (Cell Spatial Metrics).
 - **Core:** SurvFormer architecture for prognostic risk score (**CV-PRS**) modeling.
-- **Downstream:** Integration with genomic TCR Repertoire and clinical variables.
+- **Downstream:** Correlation analysis combining TCR and clinical information, and multimodal feature fusion for prognosis prediction.
 
 ## 📂 Code Availability Notice
 **[ Notice to Reviewers & Community ]**
